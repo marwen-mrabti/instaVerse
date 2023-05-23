@@ -51,7 +51,7 @@ function Story({ story, setSelectedId }) {
         </Tooltip>,
       ]}
     >
-      <Meta title={story.username} />
+      <Meta title={story?.username} />
       <Paragraph
         style={{ margin: 0 }}
         ellipsis={{
